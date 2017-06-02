@@ -1,5 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Windows;
+using System.Windows.Controls;
 using Newtonsoft.Json;
 using Wox.Infrastructure.Http;
 
@@ -26,10 +28,18 @@ namespace Wox.Plugin.Youdao
         public List<string> value { get; set; }
     }
 
-    public class Main : IPlugin
+    public class Main : IPlugin, ISettingProvider
     {
         private const string TranslateUrl = "http://fanyi.youdao.com/openapi.do?keyfrom=WoxLauncher&key=1247918016&type=data&doctype=json&version=1.1&q=";
         private PluginInitContext _context;
+        private readonly Settings _settings;
+        private readonly SettingsViewModel _viewModel;
+
+        public Main()
+        {
+            _viewModel = new SettingsViewModel();
+            _settings = _viewModel.Settings;
+        }
 
         public List<Result> Query(Query query)
         {
@@ -157,6 +167,11 @@ namespace Wox.Plugin.Youdao
                 return false;
             }
             return true;
+        }
+
+        public Control CreateSettingPanel()
+        {
+            return new SettingsControl(_viewModel);
         }
     }
 }
