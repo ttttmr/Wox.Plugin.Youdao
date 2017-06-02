@@ -11,3 +11,16 @@ C:\Users\Ricky\Documents\GitHub\Wox\Output\Release\Plugins\Wox.Plugin.Youdao\Wox
 C:\Users\Ricky\Documents\GitHub\Wox\Plugins\Wox.Plugin.Youdao\obj\Release\Wox.Plugin.Youdao.csprojResolveAssemblyReference.cache
 C:\Users\Ricky\Documents\GitHub\Wox\Plugins\Wox.Plugin.Youdao\obj\Release\Wox.Plugin.Youdao.dll
 C:\Users\Ricky\Documents\GitHub\Wox\Plugins\Wox.Plugin.Youdao\obj\Release\Wox.Plugin.Youdao.pdb
+H:\Dev\Wox\Wox\Output\Release\Plugins\Wox.Plugin.Youdao\Images\youdao.ico
+H:\Dev\Wox\Wox\Output\Release\Plugins\Wox.Plugin.Youdao\build_pkg.ps1
+H:\Dev\Wox\Wox\Output\Release\Plugins\Wox.Plugin.Youdao\plugin.json
+H:\Dev\Wox\Wox\Output\Release\Plugins\Wox.Plugin.Youdao\Wox.Plugin.Youdao.dll
+H:\Dev\Wox\Wox\Output\Release\Plugins\Wox.Plugin.Youdao\Wox.Plugin.Youdao.pdb
+H:\Dev\Wox\Wox\Plugins\Wox.Plugin.Youdao\obj\Release\Wox.Plugin.Youdao.csprojResolveAssemblyReference.cache
+H:\Dev\Wox\Wox\Plugins\Wox.Plugin.Youdao\obj\Release\SettingsControl.g.cs
+H:\Dev\Wox\Wox\Plugins\Wox.Plugin.Youdao\obj\Release\Wox.Plugin.Youdao_MarkupCompile.cache
+H:\Dev\Wox\Wox\Plugins\Wox.Plugin.Youdao\obj\Release\Wox.Plugin.Youdao_MarkupCompile.lref
+H:\Dev\Wox\Wox\Plugins\Wox.Plugin.Youdao\obj\Release\SettingsControl.baml
+H:\Dev\Wox\Wox\Plugins\Wox.Plugin.Youdao\obj\Release\Wox.Plugin.Youdao.g.resources
+H:\Dev\Wox\Wox\Plugins\Wox.Plugin.Youdao\obj\Release\Wox.Plugin.Youdao.dll
+H:\Dev\Wox\Wox\Plugins\Wox.Plugin.Youdao\obj\Release\Wox.Plugin.Youdao.pdb
