@@ -15,7 +15,7 @@
         </Grid.RowDefinitions>
         <StackPanel VerticalAlignment="Center">
             <TextBlock Text="Please Bind your own Appkey and SecretKey of Youdao api."></TextBlock>
-            <TextBlock Foreground="Gray">Apply api key in <Hyperlink NavigateUri="http://ai.youdao.com/">http://ai.youdao.com/</Hyperlink></TextBlock>
+            <TextBlock Foreground="Gray">Apply api key in <Hyperlink TargetName="" RequestNavigate="Hyperlink_RequestNavigate" NavigateUri="http://ai.youdao.com/">http://ai.youdao.com/</Hyperlink></TextBlock>
         </StackPanel>
 
         <StackPanel Grid.Row="1" Margin="0,12">

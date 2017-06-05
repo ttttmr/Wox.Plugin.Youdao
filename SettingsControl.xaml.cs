@@ -1,5 +1,7 @@
-﻿using System.Windows;
+﻿using System.Diagnostics;
+using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Documents;
 
 namespace Wox.Plugin.Youdao
 {
@@ -36,6 +38,13 @@ namespace Wox.Plugin.Youdao
         private void secretKeyTBox_TextChanged(object sender, TextChangedEventArgs e)
         {
             this.applyBT.IsEnabled = true;
+        }
+
+        private void Hyperlink_RequestNavigate(object sender, System.Windows.Navigation.RequestNavigateEventArgs e)
+        {
+            Hyperlink link = sender as Hyperlink;
+            Process.Start(new ProcessStartInfo(link.NavigateUri.AbsoluteUri));
+            e.Handled = true;
         }
     }
 }

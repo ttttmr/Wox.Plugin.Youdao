@@ -28,3 +28,4 @@ H:\Dev\Wox\Wox\Plugins\Wox.Plugin.Youdao\obj\Debug\SettingsControl.baml
 H:\Dev\Wox\Wox\Plugins\Wox.Plugin.Youdao\obj\Debug\Wox.Plugin.Youdao.g.resources
 H:\Dev\Wox\Wox\Plugins\Wox.Plugin.Youdao\obj\Debug\Wox.Plugin.Youdao.dll
 H:\Dev\Wox\Wox\Plugins\Wox.Plugin.Youdao\obj\Debug\Wox.Plugin.Youdao.pdb
+H:\Dev\Wox\Wox\Output\Debug\Plugins\Wox.Plugin.Youdao\build_pkg.ps1
