@@ -53,7 +53,8 @@ namespace Wox.Plugin.Youdao
                 results.Add(new Result()
                 {
                     Title = "请设置有道翻译API Key",
-                    SubTitle = "申请Key: http://ai.youdao.com/"
+                    SubTitle = "申请Key: http://ai.youdao.com/",
+                    IcoPath = ico
                 });
                 return results;
             }
