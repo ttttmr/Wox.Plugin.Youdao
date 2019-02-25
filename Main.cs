@@ -32,8 +32,8 @@ namespace Wox.Plugin.Youdao
 
     public class Main : IPlugin, ISettingProvider
     {
-        private const string TranslateUrl = "http://fanyi.youdao.com/openapi.do?keyfrom=WoxLauncher&key=1247918016&type=data&doctype=json&version=1.1&q=";
-        private const string youdaoApiUrl = "http://openapi.youdao.com/api";
+        private const string TranslateUrl = "https://fanyi.youdao.com/openapi.do?keyfrom=WoxLauncher&key=1247918016&type=data&doctype=json&version=1.1&q=";
+        private const string youdaoApiUrl = "https://openapi.youdao.com/api";
         private PluginInitContext _context;
         private readonly Settings _settings;
         private readonly SettingsViewModel _viewModel;
@@ -53,7 +53,7 @@ namespace Wox.Plugin.Youdao
                 results.Add(new Result()
                 {
                     Title = "请设置有道翻译API Key",
-                    SubTitle = "申请Key: http://ai.youdao.com/",
+                    SubTitle = "申请Key: https://ai.youdao.com/",
                     IcoPath = ico
                 });
                 return results;
